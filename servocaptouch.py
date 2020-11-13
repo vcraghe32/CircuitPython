@@ -12,7 +12,7 @@ touch_pad2 = board.A5
 touch2 = touchio.TouchIn(touch_pad2)
 
 pwm = pulseio.PWMOut(board.A3, duty_cycle=2 ** 15, frequency=50)
-                                         # Create a servo object, my_servo.
+                                      # Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
 while True:
     if touch1.value:
@@ -21,8 +21,7 @@ while True:
         
     elif touch2.value:
         for angle in range(180, 0, -5): # 180 - 0 degrees, 5 degrees at a tim.
+            my_servo.angle = angle
         
-        my_servo.angle = angle
-        
-    else
-        myservo.angle = 0
+    else:
+      my_servo.angle = 0
