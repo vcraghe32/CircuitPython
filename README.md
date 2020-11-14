@@ -21,3 +21,13 @@ Struggles: It was hard to figure out where to upload my code, and how to access 
 Code: https://github.com/vcraghe32/CircutPython/blob/main/ledblinkgit.py
 
 Wiring found on: https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs/digital-outputs
+
+## Servo Capacitative Touch
+<img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/Servocaptouchwiring.png" width="450">
+For this assignment we learned how to connect a servo and make it move using capacitative touch. I was difficult to find the correct libraries and update my metro to suit the code, but it was realllly cool to see it finally work.
+
+What I learned: how to connect a servo and make it move using capacitative touch
+
+Struggles: It was hard to figure out how to find the right libraries for the servo code, and get used to the servo code for python. I had to mess around with frequency to see what works with my servo.
+
+Code: https://github.com/vcraghe32/CircutPython/blob/main/servocaptouch.py
