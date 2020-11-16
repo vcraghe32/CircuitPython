@@ -31,3 +31,13 @@ What I learned: how to connect a servo and make it move using capacitative touch
 Struggles: It was hard to figure out how to find the right libraries for the servo code, and get used to the servo code for python. I had to mess around with frequency to see what works with my servo.
 
 Code: https://github.com/vcraghe32/CircutPython/blob/main/servocaptouch.py
+
+## CircuitPython LCD
+<img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/lcdwiring.png" width="450">
+For this assignment we learned how to wire an lcd backpack, and download libraries so we could control what is displayed on the lcd. One capacitative touch wire counted the number of presses, and the other determined whether that counting went down or up. These variables were displayed on the lcd.
+What I learned: how to use an lcd screen with circuitpython.
+
+Struggles: It was very difficult to navigate the libraries and find the right code for the lcd, but with attending office hours and asking for help I eventually figures it out.
+
+Code: 
+
