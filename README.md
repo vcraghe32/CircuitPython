@@ -45,6 +45,6 @@ Code: https://github.com/vcraghe32/CircuitPython/blob/main/lcdcaptouch.py
 For this assignment we learned how to use a photointerrupter, and luckily we didn't have to use new libraries. I added to the assignment by using my lcd to print out the number of interrupts. We had to count the number of interrupts and print it out every 4 seconds. 
 What I learned: how to use a photointerrupter with circuitpython.
 
-Struggles: It was a fairly east assignment, my only struggle was that I had to put a delay after my 
+Struggles: It was a fairly easy assignment, my only struggle was that I had to put a delay after the counter so that my numbers weren't in the hundreds.
 Code: https://github.com/vcraghe32/CircuitPython/blob/main/photolcdcount.py
 
