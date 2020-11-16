@@ -9,29 +9,29 @@ lcd = LCD(I2CPCF8574Interface(0x27), num_rows=2, num_cols=16)
 
 interrupter = DigitalInOut(board.D7)
 interrupter.direction = Direction.INPUT
-interrupter.pull = Pull.UP
+interrupter.pull = Pull.UP#sets up the photointerrupter as an input
 
 lcd.set_cursor_pos(0,0)#sets the area where the lcd will type to the top row
 time.sleep(2)
 counter = 0
 
 
-max = 3
+max = 4#time the delay is
 start = time.time()
 while True:
     lcd.set_cursor_pos(0,0)
-    if interrupter.value:
+    if interrupter.value:#if something interrupts, the counter goes up by one.
      counter += 1
-     time.sleep(.20)
+     time.sleep(.20)#include this to be able to count induvidual interruptions
     else:
         counter = counter
 
     remaining = max - time.time()
     if remaining <= 0:
         lcdmessage = "Interruptions: "#message at bottom row
-        lcdmessage += str(counter)
+        lcdmessage += str(counter)#have to use string to combine a variable and words
         lcd.print(lcdmessage)
-        print(lcdmessage)
+        print(lcdmessage)#prints to lcd and serial monitor
         
         max = time.time() + 4
-        counter = counter
+        counter = counter#sets the counter to itself, not 0
