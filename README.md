@@ -40,4 +40,11 @@ What I learned: how to use an lcd screen with circuitpython.
 Struggles: It was very difficult to navigate the libraries and find the right code for the lcd, but with attending office hours and asking for help I eventually figures it out.
 
 Code: https://github.com/vcraghe32/CircuitPython/blob/main/lcdcaptouch.py
+## Photointerrupter
+<img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/photolcdwiring.png" width="450">
+For this assignment we learned how to use a photointerrupter, and luckily we didn't have to use new libraries. I added to the assignment by using my lcd to print out the number of interrupts. We had to count the number of interrupts and print it out every 4 seconds. 
+What I learned: how to use a photointerrupter with circuitpython.
+
+Struggles: It was a fairly east assignment, my only struggle was that I had to put a delay after my 
+Code: https://github.com/vcraghe32/CircuitPython/blob/main/photolcdcount.py
 
