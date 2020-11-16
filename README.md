@@ -39,5 +39,5 @@ What I learned: how to use an lcd screen with circuitpython.
 
 Struggles: It was very difficult to navigate the libraries and find the right code for the lcd, but with attending office hours and asking for help I eventually figures it out.
 
-Code: 
+Code: https://github.com/vcraghe32/CircuitPython/blob/main/lcdcaptouch.py
 
