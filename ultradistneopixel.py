@@ -44,8 +44,8 @@ while True:
     if sonardis < 12.5:
         dotvaluered = 225
         dotvaluegreen = 0
-        dotvalueblue = max(0, int(((sonardis - 5) / 17.5) * 255))
-        dot.fill((dotvaluered, dotvaluegreen, dotvalueblue))
+        dotvalueblue = max(0, int(((sonardis - 5) / 17.5) * 255))   # the int(((sonardis - 5) / 17.5) shows the distance in range that works with neopixel, 
+        dot.fill((dotvaluered, dotvaluegreen, dotvalueblue))        #so that the colors are gradient along the distance "spectrum"
     if sonardis > 12.5 and sonardis < 20:
         dotvaluered = 255 - int(((sonardis - 12.5) / 17.5) * 255)
         dotvaluegreen = 0
@@ -55,4 +55,4 @@ while True:
         dotvaluered = 0
         dotvaluegreen = 255
         dotvalueblue = max(0, 255 - int(((sonardis - 27.5) / 17.5) * 255))
-        dot.fill((dotvaluered, dotvaluegreen, dotvalueblue))
+        dot.fill((dotvaluered, dotvaluegreen, dotvalueblue))#"print out" or display the color on the neopixel
