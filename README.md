@@ -52,3 +52,14 @@ Struggles: It was a fairly easy assignment, my only struggle was that I had to p
 
 Code: https://github.com/vcraghe32/CircuitPython/blob/main/photolcdcount.py
 
+## Photointerrupter
+<img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/ultrasensorwiring.png" width="450">
+For this assignment we learned how to use an ultrasonic sensor, measure the distance and color-coordinate the distances with the built-in led(neopixel). 
+
+What I learned: how to use an ultrasonicsensor, how to use *int* in code(makes numbers integers), and how to use *round* to round it to a number I can print easily.
+
+Struggles: I struggled with constructing an algorithm that would suit the numbers the metroexpress was recieving from the ultrasensor and the range of the neopixel. With some trial and error, and also recieving help from Luke Frank @ https://github.com/lfrank01 , I figured out what was wrong with my code.
+
+Code: https://github.com/vcraghe32/CircuitPython/blob/main/ultradistneopixel.py
+
+
