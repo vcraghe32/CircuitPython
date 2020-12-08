@@ -1,75 +1,90 @@
+import time
 class RGB:
-    int1 = 225
-    int2 = 0
-    int3 = 0
+    
     
 
     #r1 prints out r1's value according to color, same with g1, b1, r2, etc.
-    def __init__(self, r, b, g):
-        self.r = r
-        self.b = b
-        self.g = g
-        int1 = 225
-        int2 = 0
-        int3 = 0
-        rate1 = 2
-        rate2 = 5
-        rate = []
+    def __init__(self, rp, bp, gp):#when Myrgb1(r1,g1,b1) is put into the code, the re pin corresponds with self.r in the library....
         import pulseio
-        rv = pulseio.PWMOut(r)
-        gv = pulseio.PWMOut(g)
-        bv = pulseio.PWMOut(b)
+        import digitalio
+        
+        
+        rv = digitalio.DigitalInOut(rp)
+        rv.direction = digitalio.Direction.OUTPUT
+        self.r = rv
+       # rv(red value) we will use in the code- the rp corresponds to the board number specified in the given code
+        gv = digitalio.DigitalInOut(gp)#self.g = .......
+        gv.direction = digitalio.Direction.OUTPUT
+        self.g = gv
+        
+        bv = digitalio.DigitalInOut(bp)
+        bv.direction = digitalio.Direction.OUTPUT
+        self.b = bv
+        #rvp = pulseio.PWMOut(r)
+        #gvp = pulseio.PWMOut(g)
+        #bvp = pulseio.PWMOut(b)
 
     
     def red(self):
-        #self.fill(225, 0, 0)
-        rv.value = True
-        gv.value = False
-        bv.value = False
-        print("red!")
+        #(225, 0, 0)
+        self.r.value = False#false = on for common rgb anodes
+        self.g.value = True
+        self.b.value = True
+        print("red!")#prints to serial monitor
     def blue(self):
-        #self.fill(0, 0, 225)
-        rv.value = False
-        gv.value = False
-        bv.value = True
+        #(0, 0, 225)
+        self.r.value = True
+        self.g.value = True
+        self.b.value = False
         print("blue!")
-    def green(self):  def green(self):
-      #self.fill(0, 225, 0)
-      print("green!")
-      r.value = True
-      def green(self):
-      #self.fill(0, 225, 0)
-      print("green!")
-      r.value = True
+    def green(self):
+        #(0, 225, 0)
+        self.r.value = True
+        self.g.value = False
+        self.b.value = True
+        print("green!")
+    def magenta(self):
+        #(255, 0, 255)
+        self.r.value = False
+        self.g.value = True
+        self.b.value = False
+        print("green!")
         print("magenta!")
     def cyan(self):
-        self.fill(0, 225, 225)
+        #(0, 225, 225)
+        self.r.value = True
+        self.g.value = False
+        self.b.value = False
         print("cyan!")
-    def yeg.value = False
-        b.value = False255, 0)
+    def yellow(self):
+        #(225, 225, 0)
+        self.r.value = False
+        self.g.value = False
+        self.b.value = True
         print("yellow!")
-   
-    def duty_cycle(percent):
-        return int(percent / 100.0 * 65535.0)
-    def self(rate):
-        self.rate = rate
-        rate1 = 1
-        rate2 = 2
-    def rainbow(self):
-      #self.fill(int1, int2, int3)
+  
+    def rainbow(self, rate: float):
+      
+      time.sleep(rate)
+      self.red()
+      time.sleep(rate)
+      #self.orange() how would i do this one?
       #time.sleep(rate)
-      #int1 = int1 - 4
+      self.yellow()
+      time.sleep(rate)
+      self.green()
+      time.sleep(rate)
+      self.blue()
+      time.sleep(rate)
+      self.magenta()
+      time.sleep(rate)
+      
+      
       #int2 = int2 + 4
       #int3 = int3 + 4
       #time.sleep(rate)
       #how do I make a rate = rate 1 OR rate 2?
-        for i in range(100, -1, -1):
-            blue.duty_cycle = duty_cycle(i)
-            time.sleep(rate)
-            red.duty_cycle = duty_cycle(i)
-            time.sleep(rate)
-            green.duty_cycle = duty_cycle(i)
-            time.sleep(rate)
+       
 
 
     
