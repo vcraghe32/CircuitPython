@@ -65,11 +65,14 @@ Code: https://github.com/vcraghe32/CircuitPython/blob/main/ultradistneopixel.py
 <img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/rgbledwiring.png" width="450">
 For this assignment we learned how to create a class and use it to perform functions in the code given. I also learned how to wire the led!
 
-What I learned: how to use an ultrasonicsensor, how to use *int* in code(makes numbers integers), and how to use *round* to round it to a number I can print easily.
+What I learned: how to use an rgb led(same usage as the ledblink code, except the pins are going to ground- so false is on and true is off, rather than the opposite). I used digitalio. I also used classes to make the main function work
 
-Struggles: I struggled with correlating the input variables with the variables
+Struggles: I struggled with correlating the input variables with the variables for the class, but I figured out that I couldn't use a variable in the place of the self.r feature and I could ony use self.r(for self.r.value = true)
 
-Code: https://github.com/vcraghe32/CircuitPython/blob/main/rgbcode.py
-https://github.com/vcraghe32/CircuitPython/blob/main/rgbtermuxlib.py
+Code: 
+
+Main code - https://github.com/vcraghe32/CircuitPython/blob/main/rgbcode.py
+
+Library -   https://github.com/vcraghe32/CircuitPython/blob/main/rgbtermuxlib.py
 
 
