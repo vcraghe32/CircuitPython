@@ -62,12 +62,12 @@ Struggles: I struggled with constructing an algorithm that would suit the number
 
 Code: https://github.com/vcraghe32/CircuitPython/blob/main/ultradistneopixel.py
 ## RGB class, Objects, Modules
-<img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/ultrasensorwiring.png" width="450">
-For this assignment we learned how to create a class and use it to perform functions in the code given.
+<img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/rgbledwiring.png" width="450">
+For this assignment we learned how to create a class and use it to perform functions in the code given. I also learned how to wire the led!
 
 What I learned: how to use an ultrasonicsensor, how to use *int* in code(makes numbers integers), and how to use *round* to round it to a number I can print easily.
 
-Struggles: I struggle \d wih
+Struggles: I struggled with correlating the input variables with the variables
 
 Code: https://github.com/vcraghe32/CircuitPython/blob/main/rgbcode.py
 https://github.com/vcraghe32/CircuitPython/blob/main/rgbtermuxlib.py
