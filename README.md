@@ -75,4 +75,19 @@ Main code - https://github.com/vcraghe32/CircuitPython/blob/main/rgbcode.py
 
 Library -   https://github.com/vcraghe32/CircuitPython/blob/main/rgbtermuxlib.py
 
+## Fancy LED
+<img src="https://github.com/vcraghe32/CircuitPython/blob/main/folder_name/fancyledwiring.png" width="450">
+For this assignment we learned how to create a class and use it to perform functions in the code given. This assignment was different from the RGB led because we could make the functions whatever we wanted them to be. Also, for regular leds, True means on and False means off. I added to this assignment by trying to make  list with functions inside of it, and picking a random function for the leds to display.
+
+What I learned: how to use my knowlege from the last assignment for a different circuit. I used digitalio. I also used classes to make the main function work
+
+Struggles: I struggled with 
+
+Code: 
+
+Main code - https://github.com/vcraghe32/CircuitPython/blob/main/rgbcode.py
+
+Library -   https://github.com/vcraghe32/CircuitPython/blob/main/rgbtermuxlib.py
+
+
 
