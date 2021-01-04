@@ -81,13 +81,13 @@ For this assignment we learned how to create a class and use it to perform funct
 
 What I learned: how to use my knowlege from the last assignment for a different circuit. I used digitalio. I also used classes to make the main function work
 
-Struggles: I struggled with 
+Struggles: I struggled with making the list put out random functions, but I decided to simplify the code and revisit this idea later if needed.
 
 Code: 
 
-Main code - https://github.com/vcraghe32/CircuitPython/blob/main/rgbcode.py
+Main code - https://github.com/vcraghe32/CircuitPython/blob/main/fancyledmaincode.py
 
-Library -   https://github.com/vcraghe32/CircuitPython/blob/main/rgbtermuxlib.py
+Library -   https://github.com/vcraghe32/CircuitPython/blob/main/fancyledgit.py
 
 
 
